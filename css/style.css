@@ -34,7 +34,7 @@ body {
 }
 
 .header-bg {
-    background-image: url(/images/bg1.jpg);
+    background-image: url(/images/bg.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -77,6 +77,39 @@ body {
 .menu__list-item:hover {
     color: red;
 }
+
+/* style header end */
+
+/* style section about start */
+
+.about-box {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 76px;
+}
+
+.about{
+    margin-bottom: 150px;
+}
+
+.about-box__title{
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    font-weight: 600;
+}
+
+.about-box__text{
+
+}
+
+.about-box__image{
+    width: 500px;
+    height: 500px;
+}
+
+/* style section about end */
 
 /* style section services start */
 
