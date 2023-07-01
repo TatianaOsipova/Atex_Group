@@ -30,7 +30,7 @@ body {
 /* style header start */
 
 .header {
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .header-bg {
@@ -78,6 +78,102 @@ body {
     color: red;
 }
 
+/* style section services start */
+
+.services {
+    font-variant-numeric: lining-nums;
+    margin-bottom: 150px;
+}
+
+.services-content {
+    max-width: 970px;
+    margin: 0 auto;
+}
+
+.services__title {
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+    font-weight: 600;
+   
+}
+
+.services__item {
+    margin-bottom: 100px;
+    padding: 70px 0;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.services__box {
+    padding: 33px 40px;
+    background-color: #fff;
+    max-width: 470px;
+    position: relative;
+    box-shadow: 0px 0px 15px 10px #ece7e7;
+}
+
+.services__box::after,
+.services__box::before {
+    content: "";
+    position: absolute;
+    width: 33px;
+    height: 33px;
+}
+
+/* different ways to add gold corner */
+.services__box::before {
+    background-image: url(../images/decor-left.svg);
+    top: 19px;
+    left: 19px;
+}
+
+.services__box::after {
+    border-bottom: 2px solid #52575a;
+    border-right: 2px solid #52575a;
+    right: 19px;
+    bottom: 19px;
+}
+
+/* different ways to add gold corner */
+
+.services__box-title {
+    font-size: 24px;
+    line-height: 25px;
+    color: #4E5665;
+    margin-bottom: 20px;
+}
+
+.services__item:nth-child(even) {
+    background-position: left;
+}
+
+.services__item:nth-child(even) .services__box {
+    margin-left: auto;
+}
+
+.services__item:nth-child(even) .services__box::before {
+    right: 19px;
+    left: auto;
+    background-image: none;
+    border-right: 2px solid #52575a;
+    border-top: 2px solid #52575a;
+}
+
+.services__item:nth-child(even) .services__box::after {
+    left: 19px;
+    border-right: none;
+    border-left: 2px solid #52575a;
+}
+
+.services__images-box {
+    padding-top: 73px;
+    position: relative;
+}
+
+/* style section services end */
+
 /* style header end */
 
 .container {
@@ -117,7 +213,7 @@ body {
 .swiper {
     width: 100%;
     height: 100%;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .swiper-slide {
