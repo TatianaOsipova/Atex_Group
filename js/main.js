@@ -2,6 +2,10 @@ const swiper = new Swiper(".swiper-carousel", {
     slidesPerView: 3,
     centeredSlides: true,
     spaceBetween: 10,
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
     keyboard: {
         enabled: true,
     },
