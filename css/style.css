@@ -85,7 +85,7 @@ body {
 .about-box {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 76px;
+    /* padding-bottom: 76px; */
 }
 
 .about{
