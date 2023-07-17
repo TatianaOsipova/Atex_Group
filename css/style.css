@@ -359,7 +359,19 @@ body {
 /* styling footer end */
 
 @media (max-width: 1000px){
-    
+    .services__item {
+        padding: 382px 0 70px;
+        background-position: top;
+        margin-bottom: 0;
+    }
+
+    .services__box {
+        margin: 0 auto;
+    }
+
+    .services__item:nth-child(even) {
+        background-position: top;
+    }
 }
 
 @media (max-width: 700px) {
