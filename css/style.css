@@ -42,7 +42,7 @@ body {
 }
 
 .header-bg {
-    background-image: url(/images/bg.jpg);
+    background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
