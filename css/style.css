@@ -42,7 +42,7 @@ body {
 }
 
 .header-bg {
-    background-image: url(../images/bg.jpg);
+    background-image: url(../images/bg2.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
@@ -244,7 +244,7 @@ body {
 }
 
 .card-img {
-    width: 550px;
+    width: 600px;
     height: 50%;
     border-radius: 8px;
 }
