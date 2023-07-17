@@ -296,7 +296,7 @@ body {
 /* styling footer start */
 
 .footer {
-    background-color: #c6cfd4;
+    background-color: #e8ebed;
 }
 
 .footer-inner {
@@ -304,7 +304,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 25px;
 }
 
 .footer-logo {
@@ -316,9 +316,17 @@ body {
     font-variant-numeric: lining-nums;
 }
 
-.footer__phone {
-    padding-right: 100px;
-    padding-top: 25px;
+.footer__contact-list {
+    text-align: center;
+    
+}
+
+.footer__contact-item {
+    padding-bottom: 10px;
+}
+
+.footer__contact-item:last-child {
+    padding-bottom: 0;
 }
 
 .social__media-items {
@@ -358,7 +366,7 @@ body {
 
 /* styling footer end */
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
     .services__item {
         padding: 382px 0 70px;
         background-position: top;
