@@ -257,7 +257,11 @@ body {
 
 /* styling section map end */
 
-/* styling slider start */
+/* styling gallery-slider start */
+
+.gallery{
+    margin-bottom: 150px;
+}
 
 .container {
     width: 100%;
@@ -295,8 +299,7 @@ body {
 
 .swiper {
     width: 100%;
-    height: 100%;
-    margin-bottom: 150px;
+    height: 100%;    
 }
 
 .swiper-slide {
@@ -410,9 +413,36 @@ body {
 
 /* styling footer end */
 
+@media (max-width: 1115px) {
+    .about-box {
+        gap: 80px;
+    }
+}
+
 @media (max-width: 1000px) {
+    .header,
+    .about,
+    .customers,
+    .services,
+    .map,
+    .gallery{
+        margin-bottom: 100px;
+    }
+
+    .title{
+        margin-bottom: 50px;
+    }
     .about-box {
         flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .about-box__info{
+        order: 1;
+    }
+
+    .about-box__image{
+        order: 2;
     }
 
     .about-box__info {
