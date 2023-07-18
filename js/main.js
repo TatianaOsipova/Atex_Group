@@ -1,3 +1,4 @@
+
 const swiper = new Swiper(".swiper-carousel", {
     slidesPerView: 3,
     centeredSlides: true,
@@ -46,8 +47,8 @@ addEventListener("resize", (event)=> {
     resizeTextToFit();
 });
 
-// $(function(){
-//     $('.menu__btn').on('click', function(){
-// 		$('.menu__list').toggleClass('menu__list--active');
-// 	});
-// });
+$(function(){
+    $('.menu__btn').on('click', function(){
+        $('.menu__list').toggleClass('menu__list--active');
+    });
+});
