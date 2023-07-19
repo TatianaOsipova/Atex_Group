@@ -49,3 +49,8 @@ $(function(){
     });
 });
 
+resizeTextToFit();
+addEventListener("resize", ()=> {
+    resizeTextToFit();
+});
+
