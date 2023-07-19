@@ -102,43 +102,7 @@ img{
 
 /* style header end */
 
-/* style section about start */
-
-/* .advantages-inner__row {
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-  }
-  
-  .advantages__title {
-    font-size: 42px;
-    color: #b70021;
-    font-style: 36px;
-    position: absolute;
-    top: 0;
-  }
-  
-  .advantages__title--bottom {
-    right: 0;
-    bottom: 0;
-    top: auto;
-  }
-  
-  .advantages__text {
-    width: 303px;
-  }
-  
-  .advantages__text ul {
-    list-style: none;
-  }
-  
-  .advantages-descr {
-    max-width: 570px;
-    width: 100%;
-  } */
-  
+/* style section about start */  
 
 .about {
     margin-bottom: 150px;
@@ -164,8 +128,7 @@ img{
 }
 
 .about-box__image {   
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;    
 }
 
 /* style section about end */
@@ -516,14 +479,18 @@ img{
 @media (max-width: 700px) {
     .menu__btn {
         display: inline-block;
-        width: 40px;
+        width: 30px;
         height: 30px;
         border: none;
         padding: 0;
         background-color: inherit;
         position: absolute;
-        right: 100px;
-        top: 57px;
+        right: 20px;
+        top: 50px;
+    }
+
+    .menu__btn:hover{
+        cursor: pointer;
     }
 
     .menu__btn::after,
@@ -553,24 +520,45 @@ img{
     .menu__list {
         transform: translateY(-280%);
         display: block;
-        background-color: #0b0b0b;
-        padding: 10px 0;
-        text-align: center;
-        transition: all 3s;
-        border-radius: 15px;
+        background-color: #000;
+        padding: 0px 20px 0px 20px;
+        text-align: left;
+        transition: all 2s;
         position: absolute;
         left: 0;
-        right: 0;
+        right: 0;   
+        margin: 20px 10px 0; 
+        color: rgb(150, 149, 149);
+
+    }
+
+    .menu__list:hover{
+        cursor: pointer;
+    }
+
+    .menu__list a:hover{
+        transform: scale(1.2);
+        margin-left: 10px;
     }
 
     .menu__list.menu__list--active {
-        transform: translateY(200%);
+        transform: translateY(20%);
+    }
+
+    .menu__item{
+        border-bottom: 1px solid #878686;   
+    }
+
+    .menu__item:last-child{
+        border-bottom: none;
     }
 
     .menu__link {
         padding: 10px;
         text-align: center;
     }
+
+
 
     .title {
         font-size: 24px;
