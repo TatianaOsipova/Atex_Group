@@ -254,7 +254,7 @@ img {
 
 .map__text {
     padding: 0 100px 30px 100px;
-    text-align: center;
+    text-align: left;
 }
 
 /* styling section map end */
@@ -274,7 +274,7 @@ img {
     margin: 0;
     height: 100%;
     z-index: 1;
-    padding: 15px 30px 30px 30px;
+    padding: 15px 10px 30px 10px;
     overflow: hidden;
 }
 
@@ -447,7 +447,8 @@ img {
     .about-box__text {
         max-width: 100%;
         margin: 0;
-        padding: 0 100px;
+        padding: 0 50px;
+        text-align: left;
     }
 
     .about-box__info {
@@ -492,6 +493,10 @@ img {
         margin-right: 10px;
     }
 
+    .map__text {
+        padding: 0 50px;
+    }
+
     .card-container{       
         padding-right: 0;
         padding-left: 0;
@@ -499,6 +504,15 @@ img {
 }
 
 @media (max-width: 700px) {
+    .header,
+    .about,
+    .services,
+    .customers,
+    .map,
+    .gallery {
+        margin-bottom: 60px;
+    }
+
     .menu__btn {
         display: inline-block;
         width: 30px;
@@ -508,7 +522,7 @@ img {
         background-color: inherit;
         position: absolute;
         right: 30px;
-        top: 40px;
+        top: 62px;
     }
 
     .menu__btn:hover {
@@ -560,6 +574,7 @@ img {
     .menu__list a:hover {
         transform: scale(1.2);
         margin-left: 10px;
+        transition: all .3s;
     }
 
     .menu__list.menu__list--active {
@@ -587,6 +602,10 @@ img {
     .about-box__text,
     .map__text {
         font-size: 14px;
+    }
+
+    .customers__item {
+        margin-right: 5px;
     }
 
     .footer-inner {

@@ -1,4 +1,3 @@
-
 const swiper = new Swiper(".swiper-carousel", {
     slidesPerView: 3,
     centeredSlides: true,
@@ -23,7 +22,9 @@ const swiper = new Swiper(".swiper-carousel", {
 const slides = document.getElementsByClassName("swiper-slide");
 for (const slide of slides) {
     slide.addEventListener("click", () => {
-        const { className } = slide;
+        const {
+            className
+        } = slide;
         if (className.includes("swiper-slide-next")) {
             swiper.slideNext();
         } else if (className.includes("swiper-slide-prev")) {
@@ -43,14 +44,13 @@ function resizeTextToFit() {
     });
 }
 
-$(function(){
-    $('.menu__btn').on('click', function(){
+$(function () {
+    $('.menu__btn').on('click', function () {
         $('.menu__list').toggleClass('menu__list--active');
     });
 });
 
 resizeTextToFit();
-addEventListener("resize", ()=> {
+addEventListener("resize", () => {
     resizeTextToFit();
 });
-
