@@ -356,7 +356,6 @@ img{
     border-radius: 8px;
     opacity: 1;
     transform: scale(1.5);
-
 }
 
 .swiper {
@@ -460,7 +459,6 @@ img{
 }
 
 @media (max-width: 1000px) {
-
     .header,
     .about,
     .customers,
@@ -515,33 +513,6 @@ img{
     }
 }
 
-/* @media(max-width: 930px) {
-    .advantages-inner__row {
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-bottom: 50px;
-    }
-  
-    .advantages__title {
-      position: static;
-    }
-  
-    .advantages-descr {
-      text-align: center;
-    }
-  
-    .advantages__text {
-      margin: 25px auto;
-      padding-left: 0;
-    }
-  
-    .advantages-inner__row--mobile .advantages-descr {
-      order: -1;
-      display: flex;
-      flex-direction: column-reverse;
-    }
-  } */
-
 @media (max-width: 700px) {
     .menu__btn {
         display: inline-block;
@@ -549,10 +520,10 @@ img{
         height: 30px;
         border: none;
         padding: 0;
-        background-color: #000000;
+        background-color: inherit;
         position: absolute;
         right: 100px;
-        top: 7px;
+        top: 57px;
     }
 
     .menu__btn::after,
@@ -561,8 +532,8 @@ img{
         position: absolute;
         width: 100%;
         left: 0;
-        height: 2px;
-        background-color: #fff;
+        height: 3px;
+        background-color: #000;
     }
 
     .menu__btn::before {
@@ -575,14 +546,14 @@ img{
 
     .menu__btn span {
         display: block;
-        height: 2px;
-        background-color: #fff;
+        height: 3px;
+        background-color: #000;
     }
 
     .menu__list {
         transform: translateY(-280%);
         display: block;
-        background-color: #886239;
+        background-color: #0b0b0b;
         padding: 10px 0;
         text-align: center;
         transition: all 3s;
