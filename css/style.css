@@ -49,9 +49,9 @@ img {
 .header-bg {
     background-image: url(../images/bg.jpg);
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
     background-size: cover;
-    height: 100vh;
+    height: 100vh;    
 }
 
 .wrapper {
