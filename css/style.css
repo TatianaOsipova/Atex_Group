@@ -51,7 +51,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;    
+    height: 100vh;
 }
 
 .wrapper {
@@ -493,11 +493,11 @@ img {
     .customers__item {
         margin-right: 10px;
     }
-    
+
     .map__text {
         padding: 0 50px;
     }
-    
+
     .card-container {
         padding-right: 0;
         padding-left: 0;
@@ -508,7 +508,7 @@ img {
     .header-inner {
         padding: 50px 50px 50px 20px;
     }
-    
+
     .logo__img {
         width: 55px;
         height: 55px;
@@ -639,11 +639,11 @@ img {
         margin-bottom: 40px;
     } */
 
-    .title{
+    .title {
         margin-bottom: 15px;
     }
 
-    .about-box{
+    .about-box {
         padding-bottom: 30px;
     }
 
@@ -655,9 +655,16 @@ img {
         padding: 0 20px;
     }
 
-    .customers{
+    .customers {
         padding-top: 15px;
     }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+
+    
 
 
 }
