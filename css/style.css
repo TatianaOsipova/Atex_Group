@@ -264,11 +264,9 @@ img {
 .gallery {
     position: relative;
     width: 100%;
-    /* min-height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background: #ffffff; */
     overflow: hidden;
     margin-bottom: 150px;
     
@@ -287,18 +285,22 @@ img {
     background-position: center;
     background-size: cover;
     width: 700px;
-    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
     filter: blur(4px);
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 .swiper-slide-active {
-    filter: blur(0px);    
+    filter: blur(0px);   
+    box-shadow: none;
+    
 }
 
 .swiper-slide img {
     display: block;
     width: 100%;
-    border-radius: 8px;    
+    border-radius: 8px;  
+    
+
 }
 
 .swiper-slide__box {
